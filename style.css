@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kaushan Script", cursive;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #b8b8b8;
+}
+
+.main .SignUpParent {
+  width: 75%;
+  height: 90vh;
+  border-radius: 10px;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+}
+.mainForm {
+  width: 50%;
+  display: none;
+}
+.signupForm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signupForm h1 {
+  font-size: 40px;
+}
+
+.signupForm p {
+  font-size: 17px;
+  text-align: center;
+  line-height: 23px;
+  color: #999;
+}
+
+.signupForm .divButtons {
+  display: flex;
+  margin-top: 10px;
+  gap: 15px;
+}
+
+.divButtons button {
+  padding: 6px 22px;
+  border: none;
+  border-radius: 5px;
+}
+
+.divButtons button:nth-child(1) {
+  background: #ffffff;
+  border: 1.5px solid #000;
+  font-weight: bold;
+  transition: 1s ease;
+}
+.divButtons button:nth-child(1):hover {
+  background: #000000;
+  color: #fff;
+}
+.divButtons button:nth-child(2) {
+  background: #0ce97a;
+  transition: 0.5s ease;
+  font-weight: bold;
+}
+
+.divButtons button:nth-child(2):hover {
+  background: #ffffff;
+  border: 1.5px solid #000;
+  font-weight: bold;
+}
+
+.SignUpParent .signUpImage {
+  width: 50%;
+  height: 100%;
+  background: url("./images/mainImage.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.LoginForm {
+  width: 50%;
+  height: 100%;
+  margin-top: 15px;
+  padding: 50px;
+  display: none;
+}
+
+.LoginForm .para,
+h1 {
+  text-align: center;
+}
+
+.LoginForm .form {
+  width: 100%;
+  margin-top: 30px;
+}
+.form label {
+  font-size: 17px;
+}
+
+.form input {
+  width: 95%;
+  height: 32px;
+  margin-top: 5px;
+  border: 1px solid #979797;
+  border-radius: 20px;
+  padding-left: 20px;
+  outline: none;
+}
+
+.form .inp {
+  margin-top: 10px;
+}
+
+.LogInBtn {
+  margin-top: 15px;
+  width: 95%;
+  height: 32px;
+  border: 1px solid #979797;
+  border-radius: 20px;
+  background: #0afc67;
+  font-size: 16px;
+
+  transition: 0.5s ease;
+}
+
+.LogInBtn:hover {
+  background: #0afc6792;
+}
+
+.googleLog {
+  margin-top: 15px;
+  width: 95%;
+  height: 35px;
+  border: 1px solid #979797;
+  border-radius: 20px;
+  background: #ffffff;
+  font-size: 16px;
+  transition: 1s ease;
+}
+
+.googleLog:hover {
+  background: #000000;
+  color: #fff;
+}
+
+::placeholder {
+  height: 10px;
+  margin-left: 20px;
+}
+
+.signUP {
+  width: 50%;
+  height: 100%;
+
+  padding: 50px;
+  display: none;
+}
+
+.signUP .para,
+h1 {
+  text-align: center;
+}
+
+.signUP .form {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.active {
+  display: block;
+}
+
+.backBtn {
+  text-align: left;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.backBtn:hover {
+  color: #ff0808;
+}
+.backBtn2 {
+  text-align: left;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.backBtn2:hover {
+  color: #ff0808;
+}
